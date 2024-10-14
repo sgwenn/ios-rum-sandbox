@@ -21,8 +21,8 @@ let logger = Logger.create(
         consoleLogFormat: .shortWith(prefix: "[iOS App] ")
     )
 )
-let appID = "0b144421-8d22-4719-996e-98baf45c70a4"
-let clientToken = "pub114b70a86024e1655f57ed9478f22101"
+let appID = "<app-id>"
+let clientToken = "<client-token>"
 let environment = "testing"
 let tracer = Tracer.shared()
 let rum = RUMMonitor.shared()
@@ -72,7 +72,6 @@ class MainViewController: UIViewController {
     }
 
     @IBAction func sendLogs(_ sender: UIButton) {
-        logger.addAttribute(forKey: "service", value: "pear")
         logger.notice("Sent notice, working fine")
 //        logger.info("Sent info level log", attributes: ["context" : "application test"])
 //        logger.warn("Sent warning level log")
@@ -106,7 +105,7 @@ class MainViewController: UIViewController {
             url: URL(string: "api")!
         )
 
-// If you can you can call a resource here like load an image, do an API call..
+// If you can you can call a resource here, like here is an API call
         rum.stopResource(
             resourceKey: "api",
             response: HTTPURLResponse(url: URL(string: "api")!, statusCode: 200, httpVersion: "HTTP/1.1", headerFields: ["test" : "test"])!,

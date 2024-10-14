@@ -53,7 +53,7 @@
                                     <constraint firstItem="jIV-x1-MYa" firstAttribute="centerY" secondItem="JZk-de-moB" secondAttribute="centerY" id="vl6-n8-1RL"/>
                                 </constraints>
                             </view>
-                            <view autoresizesSubviews="NO" clipsSubviews="YES" contentMode="center" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xqo-Cb-cQ7">
+                            <view autoresizesSubviews="NO" clipsSubviews="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="xqo-Cb-cQ7">
                                 <rect key="frame" x="16" y="350" width="361" height="345"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLF-vC-821">
@@ -154,7 +154,6 @@
                             <constraint firstItem="xqo-Cb-cQ7" firstAttribute="trailing" secondItem="wOf-PZ-auU" secondAttribute="trailing" id="axD-Uh-eLJ"/>
                             <constraint firstItem="wOf-PZ-auU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="692" id="bzi-ok-2bX"/>
                             <constraint firstItem="xqo-Cb-cQ7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="vgS-NP-LeC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xqo-Cb-cQ7" secondAttribute="bottom" constant="118" id="xlq-r9-tu6"/>
                             <constraint firstItem="JZk-de-moB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yqm-f2-1SR"/>
                             <constraint firstItem="JZk-de-moB" firstAttribute="centerX" secondItem="xqo-Cb-cQ7" secondAttribute="centerX" id="zv4-iu-vjd"/>
                         </constraints>
@@ -241,7 +240,7 @@
     <resources>
         <image name="Image" width="800" height="856.5"/>
         <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.3880000114440918" green="0.17300000786781311" blue="0.65100002288818359" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
